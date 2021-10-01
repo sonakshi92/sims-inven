@@ -1,0 +1,106 @@
+.sidebar-fixed{
+    padding:0 .3rem .3rem !important
+}
+.btn-rounded {
+    border-radius: 100% !important;
+    padding: .5rem .7rem !important;
+}
+main#login-main{
+    position:fixed;
+    height:100%;
+    width:100%;
+    padding:1em
+}
+.card .view.view-cascade.gradient-card-header.blue-gradient {
+    position: relative;
+    top: -.7em;
+    width: calc(100% + 2em);
+    left: -1em;
+
+}
+#login-progress{
+    height:.3em;
+    display: none;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.white.scrolling-navbar {
+    padding-left: 280px;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.white.scrolling-navbar .user_logout {
+    position:relative;
+    right:2em;
+    font-weight: bolder;
+}
+#sidebar-list a span{
+    transition: all .5s
+    }
+    #sidebar-list .collapse.show{
+        display: contents;
+    }
+#sidebar-list .collapse a{
+    text-indent: 50px;
+    border-top:1px solid #80808040;
+    border-bottom:1px solid #80808040;
+    }
+#sidebar-list a.rot-ang span{
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -moz-transform: rotate(90deg);   /* Firefox */
+    -ms-transform: rotate(90deg);   /* IE 9 */
+    -o-transform: rotate(90deg);   /* Opera */
+    transform: rotate(90deg);
+}
+.cascading-admin-card .admin-up .fab, .cascading-admin-card .admin-up .far, .cascading-admin-card .admin-up .fas, .cascading-admin-card .admin-up .fa {
+    padding: 1.7rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .cascading-admin-card .admin-up {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -1.25rem;
+}
+.cascading-admin-card .admin-up .fab, .cascading-admin-card .admin-up .far, .cascading-admin-card .admin-up .fas {
+    padding: 1.7rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.cascading-admin-card .admin-up .data {
+    float: right;
+    margin-top: 2rem;
+    text-align: right;
+}
+.cascading-admin-card .admin-up .data p {
+    color: #999;
+    font-size: 12px;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
